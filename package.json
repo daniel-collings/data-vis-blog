@@ -24,7 +24,6 @@
     "tailwindcss": "^3.2.7"
   },
   "devDependencies": {
-    "@esbuild/darwin-x64": "^0.17.12",
     "@tailwindcss/typography": "^0.5.9"
   }
 }
