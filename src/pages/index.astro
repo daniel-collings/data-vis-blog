@@ -4,6 +4,9 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import Hero from "../components/Hero.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Technology from "../components/Technology.astro";
+import UnderConstruction from "../components/UnderConstruction";
+import Projects from "../components/Projects.astro";
 ---
 
 <!DOCTYPE html>
@@ -12,26 +15,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
+		<UnderConstruction client:visible />
 		<Hero />
 		<BaseLayout>
-			<h2 class="text-center">🚧 Lift off in 3.. 2.. not long now 🚧</h2>
-			<div class="grid grid-cols-2">
-				<div class="grid">
-					<p>
-						The website and subsquent project development work is ongoing in
-						the background.
-					</p>
-					<p>
-						I will be posting updates to my LinkedIn. Feel free to reach out
-						and connect.
-					</p>					
-				</div>
-				<div class="grid">
-					<img src="/undraw_Programming.png" height="250px" width="100%" />				
-				</div>
-			</div>
-
-			<Footer />
+			<Projects/>
+			<Technology />
+			<Footer />		
 		</BaseLayout>
 	</body>
 </html>
