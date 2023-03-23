@@ -7,7 +7,7 @@ export default function UnderConstruction() {
   }
 
   return (
-    <div className={bannerVisible ? "flex items-center gap-x-6 bg-green-500 py-2.5 px-6 sm:px-3.5 sm:before:flex-1" : "hidden"}>
+    <div className={bannerVisible ? "top-0 sticky z-50 flex items-center gap-x-6 bg-green-500 py-2.5 px-6 sm:px-3.5 sm:before:flex-1" : "hidden"}>
       <p className="text-sm leading-6 text-white">
         <a href="https://www.linkedin.com/in/drcollings/">Aloha! 👋 This site is currently under development 🚧 Follow me on LinkedIn for updates.&nbsp;<span aria-hidden="true">&rarr;</span></a>
       </p>
