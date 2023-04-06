@@ -1,0 +1,27 @@
+{
+    "short_name": "Boltviz",
+    "name": "Boltviz",
+    "description": "The name of the game is to analyse data, develop interesting visuals and present any findings back through a blog write up..",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/ico"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "200x200"
+      }
+    ]
+  }
